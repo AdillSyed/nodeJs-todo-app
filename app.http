@@ -1,0 +1,26 @@
+
+get http://localhost:3000/todos/?priority=HIGH
+
+####
+
+get http://localhost:3000/todos/?status=DONE
+
+#####
+
+get http://localhost:3000/todos/?search_q=Buy
+
+####
+
+get http://localhost:3000/todos/?category=WORK
+
+####
+
+get http://localhost:3000/todos/1/
+
+######
+
+get http://localhost:3000/agenda/?date=2021-02-22
+
+####
+
+post http://localhost:3000/
