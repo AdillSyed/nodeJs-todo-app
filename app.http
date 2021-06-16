@@ -3,7 +3,7 @@ get http://localhost:3000/todos/?priority=HIGH
 
 ####
 
-get http://localhost:3000/todos/?status=DONE
+get http://localhost:3000/todos/?status=TO%20DO
 
 #####
 
@@ -19,7 +19,7 @@ get http://localhost:3000/todos/1/
 
 ######
 
-get http://localhost:3000/agenda/?date=2021-02-22
+get http://localhost:3000/agenda/?date=04-22-2021
 
 ####
 
